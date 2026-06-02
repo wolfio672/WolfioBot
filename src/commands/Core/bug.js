@@ -11,7 +11,7 @@ export default {
         const githubButton = new ButtonBuilder()
             .setLabel('?? Report Bug on GitHub')
             .setStyle(ButtonStyle.Link)
-            .setURL('https://github.com/codebymitch/wolfio672/issues');
+            .setURL('https://github.com/');
 
         const row = new ActionRowBuilder().addComponents(githubButton);
 
