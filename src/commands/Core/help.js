@@ -158,7 +158,7 @@ export async function createInitialHelpMenu(client) {
     );
 
     embed.setFooter({ 
-        text: "Made with ❤️" 
+        text: "Made by Wolfio" 
     });
     embed.setTimestamp();
 
@@ -173,8 +173,8 @@ export async function createInitialHelpMenu(client) {
         .setStyle(ButtonStyle.Link);
 
     const touchpointButton = new ButtonBuilder()
-        .setLabel("Learn from Touchpoint")
-        .setURL("https://www.youtube.com/@TouchDisc")
+        .setLabel("Youtube")
+        .setURL("https://www.youtube.com/@wolfio67")
         .setStyle(ButtonStyle.Link);
 
     const selectRow = createSelectMenu(
